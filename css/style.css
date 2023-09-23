@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    background-color: #8d99ae;
+    padding-top: 10px;
+
+
+}
+
+nav a {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #8d99ae;
+    background-color: #1d3557;
+    text-align: center;
+    display: block;
+
+    border-radius: 5px;
+    border: 3px #1d3557;
+
+
+}
+
+nav a:hover {
+    background-color: #1d3557;
+    color: azure;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.naam-product {
+    display: flex;
+    gap: 100px;
+    padding-top: 10px;
+    margin: 10px;
+    border-bottom: 3px solid #1d3557;
+}
+
+.price a {
+    text-decoration: none;
+    color: #8d99ae;
+    background-color: #1d3557;
+    text-align: center;
+    display: block;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 3px black;
+}
+
+.price a:hover {
+    background-color: #1d3557;
+    color: azure;
+
+}
+
+.price {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.omschrijving {
+    text-align: center;
+    border-bottom: 3px solid #1d3557;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.gelerateerde-producten {
+    display: flex;
+    flex-direction: row;
+}
+
+.frenkie {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+img {
+    width: 300px;
+}
