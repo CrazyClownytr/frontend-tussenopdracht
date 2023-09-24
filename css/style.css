@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
 }
 
 nav {
@@ -10,20 +11,33 @@ nav {
     padding-bottom: 10px;
     background-color: #8d99ae;
     padding-top: 10px;
-
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding: 20px;
+    text-align: center;
 
 }
 
+nav img {
+    width: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+
 nav a {
-    padding: 5px 20px;
+    padding: 010px 20px;
     text-decoration: none;
-    color: #8d99ae;
-    background-color: #1d3557;
+    color: #005f73;
+
     text-align: center;
     display: block;
-
+    text-align: center;
     border-radius: 5px;
     border: 3px #1d3557;
+    flex-basis: 50px;
+
 
 
 }
@@ -89,14 +103,27 @@ main {
 .gelerateerde-producten {
     display: flex;
     flex-direction: row;
+
 }
 
-.frenkie {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-}
+
 
 img {
-    width: 300px;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    color: #8d99ae;
+    background-color: #1d3557;
+    padding-bottom: 10px;
+    gap: 10px;
+    padding-top: 5px;
+
 }
